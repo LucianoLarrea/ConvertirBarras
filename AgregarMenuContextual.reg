@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PegarRutaConBarraNormal]
+@="Pegar ruta con barra normal"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PegarRutaConBarraNormal\command]
+@="powershell.exe -ExecutionPolicy Bypass -File \"D:\\Luccio_Tools\\PegarRuta.ps1\""
